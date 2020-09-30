@@ -1,0 +1,18 @@
+Preference,VisitList,Maximum places:,Same
+,"AC, AT, BS, CA, CN, PC, SC",7,True
+P1,"AC, AT, CA, JT, MO, PC, TM",7,False
+P2,"AC, AT, CA, PC, SC, TE",6,False
+P3,"AC, AT, BS, CA, MO, PC, SC",7,False
+P4,"AC, AT, BS, CN, PC, SC, TM",7,False
+P5,"AC, AT, BS, CN, MO, PC, SC",7,False
+"P1, P2","AC, AT, CA, PC, TE, TM",6,False
+"P1, P3","AC, AT, CA, JT, MO, PC, TM",7,False
+"P1, P4","AC, AT, CA, JT, MO, PC, TM",7,False
+"P2, P5","AC, AT, CA, JT, PC, TE",6,False
+"P3, P4","AC, AT, BS, CA, PC, SC, TM",7,False
+"P4, P5","AC, AT, CN, MO, PC, SC, TM",7,False
+"P1, P2, P4","AC, AT, CA, PC, TE, TM",6,False
+"P2, P3, P5","AC, AT, CA, JT, PC, TE",6,False
+"P2, P3, P4, P5","AC, AT, CA, PC, TE, TM",6,False
+"P1, P2, P4, P5","AC, AT, CA, PC, TE, TM",6,False
+"P1, P2, P3, P4, P5","AC, AT, CA, PC, TE, TM",6,False
